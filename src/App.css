@@ -1,0 +1,32 @@
+.tzatziki {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 15vh;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.recipe {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

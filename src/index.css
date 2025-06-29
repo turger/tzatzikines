@@ -1,0 +1,17 @@
+:root {
+  color: #222222;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #ffffff;
+    background-color: #3b3b3b;
+  }
+}

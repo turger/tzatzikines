@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Garlic bulb main shape -->
+  <ellipse cx="50" cy="65" rx="28" ry="32" fill="#F8F8F0"/>
+  <ellipse cx="50" cy="65" rx="25" ry="29" fill="#F5F5DC"/>
+
+  <!-- Individual garlic cloves with more detail -->
+  <!-- Center cloves -->
+  <ellipse cx="50" cy="60" rx="10" ry="14" fill="#F8F8F0"/>
+  <ellipse cx="50" cy="60" rx="7" ry="10" fill="#E8E8D0"/>
+
+  <!-- Top cloves -->
+  <ellipse cx="45" cy="55" rx="8" ry="12" fill="#F8F8F0"/>
+  <ellipse cx="45" cy="55" rx="5" ry="8" fill="#E8E8D0"/>
+  <ellipse cx="55" cy="55" rx="8" ry="12" fill="#F8F8F0"/>
+  <ellipse cx="55" cy="55" rx="5" ry="8" fill="#E8E8D0"/>
+
+  <!-- Side cloves -->
+  <ellipse cx="40" cy="65" rx="7" ry="11" fill="#F8F8F0"/>
+  <ellipse cx="40" cy="65" rx="4" ry="7" fill="#E8E8D0"/>
+  <ellipse cx="60" cy="65" rx="7" ry="11" fill="#F8F8F0"/>
+  <ellipse cx="60" cy="65" rx="4" ry="7" fill="#E8E8D0"/>
+
+  <!-- Bottom cloves -->
+  <ellipse cx="45" cy="70" rx="6" ry="10" fill="#F8F8F0"/>
+  <ellipse cx="45" cy="70" rx="3" ry="6" fill="#E8E8D0"/>
+  <ellipse cx="55" cy="70" rx="6" ry="10" fill="#F8F8F0"/>
+  <ellipse cx="55" cy="70" rx="3" ry="6" fill="#E8E8D0"/>
+
+  <!-- Garlic stems/leaves - more realistic -->
+  <path d="M 45 25 Q 50 15 55 25" stroke="#90EE90" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 40 30 Q 45 20 50 30" stroke="#90EE90" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 50 30 Q 55 20 60 30" stroke="#90EE90" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 42 35 Q 47 25 52 35" stroke="#90EE90" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 48 35 Q 53 25 58 35" stroke="#90EE90" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Roots - more detailed -->
+  <line x1="45" y1="90" x2="45" y2="98" stroke="#8B4513" stroke-width="2" stroke-linecap="round"/>
+  <line x1="50" y1="90" x2="50" y2="98" stroke="#8B4513" stroke-width="2" stroke-linecap="round"/>
+  <line x1="55" y1="90" x2="55" y2="98" stroke="#8B4513" stroke-width="2" stroke-linecap="round"/>
+  <line x1="42" y1="92" x2="42" y2="100" stroke="#8B4513" stroke-width="1" stroke-linecap="round"/>
+  <line x1="58" y1="92" x2="58" y2="100" stroke="#8B4513" stroke-width="1" stroke-linecap="round"/>
+  <line x1="48" y1="93" x2="48" y2="99" stroke="#8B4513" stroke-width="1" stroke-linecap="round"/>
+  <line x1="52" y1="93" x2="52" y2="99" stroke="#8B4513" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Papery skin layers - more realistic -->
+  <ellipse cx="50" cy="65" rx="30" ry="34" fill="none" stroke="#D2B48C" stroke-width="1" opacity="0.7"/>
+  <ellipse cx="50" cy="65" rx="27" ry="31" fill="none" stroke="#D2B48C" stroke-width="0.8" opacity="0.5"/>
+  <ellipse cx="50" cy="65" rx="24" ry="28" fill="none" stroke="#D2B48C" stroke-width="0.6" opacity="0.3"/>
+
+  <!-- Clove separations - subtle lines -->
+  <path d="M 50 50 Q 55 55 50 60" stroke="#E8E8D0" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 50 60 Q 55 65 50 70" stroke="#E8E8D0" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 45 55 Q 50 60 45 65" stroke="#E8E8D0" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 55 55 Q 50 60 55 65" stroke="#E8E8D0" stroke-width="0.5" fill="none" opacity="0.6"/>
+</svg>
